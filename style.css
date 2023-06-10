@@ -97,15 +97,18 @@ header{
 }
 
 header .user img{
+    position: relative;
+    top: 50px;
     height: 17rem;
     width: 17rem;
     border-radius: 50%;
     object-fit:cover;
-    margin-bottom:1rem;
     border:.7rem solid var(--yellow);
 }
 
 header .user .name{
+    position: relative;
+    top: 40px;
     font-size:3.5rem;
     color:#fff;
 }
@@ -113,6 +116,9 @@ header .user .name{
 header .user .post{
     font-size:2rem;
     color:#fff;
+    margin-top: 2rem;
+    position: relative;
+    top: 20px;
 }
 
 header .navbar{
@@ -122,6 +128,8 @@ header .navbar{
 header .navbar ul{
     list-style: none;
     padding: 1rem 3rem;
+    position: relative;
+    bottom: 40px;
 }
 
 header .navbar ul li a{
@@ -422,7 +430,6 @@ header .navbar ul li a:hover{
     font-size: 24px;
   }
 
-
   /*projects section*/
   .image-container {
     position: relative;
@@ -460,3 +467,19 @@ header .navbar ul li a:hover{
     text-align: center;
   }
 
+  .socials1{
+    position: relative;
+    top: 31px;
+    left: 50px;
+  }
+
+  .socials2{
+    position: relative;
+    bottom: -2px;
+  }
+
+  .socials3{
+    position: relative;
+    bottom: 27px;
+    right: 50px;
+  }
